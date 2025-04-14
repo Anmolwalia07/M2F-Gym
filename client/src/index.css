@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* App.css */
+body {
+  font-family: 'Montserrat';
+  background-color: #000;
+}
+
+/* App.css */
+/* Custom scrollbar for Chrome, Safari, and Edge */
+::-webkit-scrollbar {
+  width: 20px;
+}
+::-webkit-scrollbar-track {
+  background: #000;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #b5b3b3;
+  border-radius: 10px;
+
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #ede978;
+}
+
