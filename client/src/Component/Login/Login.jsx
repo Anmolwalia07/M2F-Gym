@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import Header from '../Header/Header';
 import { useCookies } from 'react-cookie';
+import image from '../../assets/login.jpg';
 axios.defaults.withCredentials = true;
 function Login() {
     const [details, setDetails] = useState({});
@@ -46,7 +47,7 @@ const handleSubmit = async (e) => {
   return (
     <div className='w-full  bg-[#000] flex justify-center pt-[120px] pb-[50px]'>
         <div className='w-[1000px] h-[580px] text-white ' style={{
-            backgroundImage: `url("https://e1.pxfuel.com/desktop-wallpaper/554/24/desktop-wallpaper-best-4-fitness-on-hip-gym-boy.jpg")`,
+            backgroundImage: `url("${image}")`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             }}>
